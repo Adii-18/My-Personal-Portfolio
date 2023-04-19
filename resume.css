@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body{
+    margin: 0;
+     padding: 0;
+     font-family: 'Roboto', sans-serif;
+}
+ .navigation {
+     height: 70px;
+     background: linear-gradient(45deg, #292a2b, #0f0f0f);
+}
+ .brand {
+     position: absolute;
+     padding-left: 0%;
+     float: left;
+     line-height: 70px;
+     margin-left: 1%;
+     text-shadow: 2px 2px #061ef5;
+     text-transform: uppercase;
+     font-size: 40px;
+     text-align: center;
+}
+ .brand a, .brand a:visited {
+     color: #964814;
+     text-decoration: none;
+     font-weight: bold;
+}
+.ulink{
+    text-decoration: none;
+    margin-left: 50%;
+}
+
+.userbtn{
+    color: white;
+    background: #702b02;
+    font-size: 20px;
+    width: 12vw;
+    height: 10vh;
+    margin-top: 30%;
+    margin-left: 30%;
+    text-align: center;
+    border: none;
+    border-radius: 30%;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.userbtn:hover{
+    background: #f49b35;
+    letter-spacing: 2px;
+    color: #0f0f0f;
+    cursor: pointer;
+}
